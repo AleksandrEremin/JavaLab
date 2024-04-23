@@ -26,6 +26,7 @@ public class Target {
             circle.setLayoutY(circle.getLayoutY() + speed);
             if ((circle.getBoundsInParent().getCenterY() + circle.getRadius()) > Plot.getBoundsInParent().getMaxY()) {
                 Index = 1;
+                System.out.println(Plot.getBoundsInParent().getMaxY());
             }
         } else {
             circle.setLayoutY(circle.getLayoutY() - speed);

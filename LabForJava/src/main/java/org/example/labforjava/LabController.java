@@ -39,6 +39,7 @@ public class LabController {
 
     @FXML
     protected void onStartButtonClick() {
+
         if (MyThread != null) return;
         fRun = true;
         myTargetOne = new Target(458.0, 44.0, 44.0, 2);
